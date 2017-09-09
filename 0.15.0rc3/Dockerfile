@@ -5,7 +5,7 @@ RUN groupadd -r bitcoin && useradd -r -m -g bitcoin bitcoin
 ENV BITCOIN_VERSION 0.15.0
 ENV BITCOIN_URL https://bitcoin.org/bin/bitcoin-core-0.15.0/test.rc3/bitcoin-0.15.0rc3-x86_64-linux-gnu.tar.gz
 ENV BITCOIN_SHA256 edaba351ea62f053c6b99d65e96b7bcd2ff9ca39798d8a12badf5432abf37ce5
-ENV BITCOIN_ASC_URL https://bitcoin.org/bin/bitcoin-core-0.15.0/SHA256SUMS.asc
+ENV BITCOIN_ASC_URL https://bitcoin.org/bin/bitcoin-core-0.15.0/test.rc3/SHA256SUMS.asc
 ENV BITCOIN_PGP_KEY 01EA5486DE18A882D4C2684590C8019E36C2E964
 
 RUN set -ex \
